@@ -74,7 +74,7 @@ setInterval(updateDateTime, 1000);
 
 document.addEventListener("DOMContentLoaded", () => {
   const typedTextSpan = document.getElementById("typed-text");
-  const textArray = ["A Front-End Dev,", "A Data Analyst,", "And A Copywriter."];
+  const textArray = ["A Front-End Dev"];
   let textArrayIndex = 0,
     charIndex = 0;
 
